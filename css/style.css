@@ -1,0 +1,135 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Yeseva+One&display=swap');
+
+/* Global Style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #2c2b2b;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    margin: 10px;
+}
+p{
+    margin:30px 0;
+    color: #444444;
+}
+.heading-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+/* Top banner Style */
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+.half-width{
+    width: 50%;
+    padding: 0px 100px;
+}
+.half-width img{
+    width: 90%;
+}
+.color{
+    color: #39b6ff;
+}
+.link-btn{
+    font-size: 15px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom left , rgb(7, 143, 233), rgb(86, 184, 241));
+    padding: 12px 35px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+}
+.box{
+    border-left: 4px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to bottom , rgb(7, 143, 233), rgb(86, 184, 241));
+    border-image-slice: 1;
+}
+
+
+/* mission section Style */
+.mission-title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.mission-flexible{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.width_of_3{
+    border-radius: 10px;
+    width: 33%;
+    padding: 10px;
+    margin: 0 10px 60px 10px;
+}
+.color-1{
+    background-color: rgba(0, 38, 255, 0.158);
+}
+.color-2{
+    background-color: rgba(148, 66, 255, 0.219);
+}
+.color-3{
+    background-color: rgba(0, 132, 255, 0.178);
+}
+.width_of_3 img{
+    width: 150px;
+}
+
+
+/* development-section */
+.development-section{
+    background-image: url(../img/shape-1.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.development-section img{
+    width: 80%;
+}
+
+/* Community section */
+.community-section{
+    background-image: url(../img/shape-1.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* about section */
+.about-section img{
+    width: 100%;
+}
+
+
+/* Footer section */
+.footer{
+    background-color: #04141f;
+    text-align: center;
+}
+.footer h3{
+    padding-top: 40px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    font-size: 30px;
+}
+.footer p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 35px;
+}
